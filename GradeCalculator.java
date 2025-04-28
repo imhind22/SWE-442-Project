@@ -23,13 +23,14 @@ public class GradeCalculator {
             grade = 'A';
         } else if (average >= 80 && average < 90) {
             grade = 'B';
-        } else if (average >= 70 && average < 80) {
+        } else if (average >= 65 && average < 80) {
             grade = 'C';
-        } else if (average >= 60 && average < 70) {
+        } else if (average >= 50 && average < 65) {
             grade = 'D';
         } else {
             grade = 'F';
         }
+
 
         // Display the result
         System.out.printf("\nAverage Score: %.2f\n", average);
