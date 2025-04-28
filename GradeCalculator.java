@@ -33,7 +33,7 @@ public class GradeCalculator {
 
         // Display the result
         System.out.printf("\nAverage Score: %.2f\n", average);
-        System.out.println("Final grade is: " + grade);
+        System.out.println("Grade after calculation is: " + grade);
 
         scanner.close();
     }
